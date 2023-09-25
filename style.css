@@ -1,0 +1,60 @@
+.navbar-nav {
+  margin-left: auto; /* Push the navbar-nav to the right */
+}
+
+.logo {
+  color: rgb(163, 20, 20);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.fixed-background {
+  background: linear-gradient(rgba(0, 0, 0, 0.93) 50%, rgba(0, 0, 0, 0.93) 50%),
+    url("images/img2.2.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 50px; /* Add padding to the container to ensure content is readable */
+  color: #ffffff; /* Set text color to contrast with the background */
+}
+
+.d-block {
+  width: fit-content;
+  height: 65vh;
+}
+
+.contact {
+  height: 23vh;
+}
+
+h2.text-center {
+  padding-top: 15px;
+}
+
+.copyright {
+  font-size: 15px;
+}
+
+#about-section p {
+    text-align: justify;
+}
+
+.services{
+    text-align: justify;
+}
+
+
+@media (max-width: 768px) {
+  .d-block {
+    height: 50vh;
+  }
+  #about-section {
+    padding-left: 10px; /* Adjust the left padding as needed */
+    padding-right: 10px; /* Adjust the right padding as needed */
+  }
+  .contact {
+    height: 23vh;
+  }
+
+}
